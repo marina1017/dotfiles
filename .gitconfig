@@ -1,0 +1,26 @@
+[user]
+	name = Marina Nakagawa
+	email = mari10172001@yahoo.co.jp
+[core]
+	quotepath = false
+	autocrlf = false
+	safecrlf = true
+	ignorecase = false
+	excludesfile = /Users/marina/.gitignore_global
+[http]
+        postBuffer = 100M
+[credential]
+	helper = wincred
+[push]
+	default = simple
+[alias]
+	st = status
+	ch = checkout
+	c = commit -m
+[credential "https://source.developers.google.com"]
+	helper = gcloud.sh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
