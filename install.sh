@@ -15,6 +15,12 @@ for f in .??*; do
     ln -snfv ~/dotfiles/"$f" ~/
 done
 
+echo "fish系"
+ln -sf ~/dotfiles/fish ~/.config/fish
+
+echo "fishパッケージマネージャーfisherで管理されているもの"
+ln -sf ~/dotfiles/fisher ~/.config/fisher
+
 cat << END
 
 **************************************************
