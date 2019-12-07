@@ -8,7 +8,7 @@
 	ignorecase = false
 	excludesfile = /Users/marina/.gitignore_global
 [http]
-        postBuffer = 100M
+        postBuffer = 200M
 [credential]
 	helper = wincred
 [push]

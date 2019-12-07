@@ -13,6 +13,8 @@ brew "pipenv"
 brew "rbenv"
 brew "go"
 brew "pngquant"
+brew "yarn"
+brew "heroku/brew/heroku"
 
 cask "google-chrome"
 cask "google-japanese-ime"
@@ -26,6 +28,8 @@ cask "docker"
 cask "clipy"
 cask "postman"
 cask "adobe-creative-cloud"
+cask "clip-studio-paint"
+cask "cheatsheet"
 
 mas "co.nimbusweb.nimbuscapture", id: 1125725441
 mas "com.apple.iWork.Keynote", id: 409183694
