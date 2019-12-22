@@ -30,6 +30,8 @@ cask "postman"
 cask "adobe-creative-cloud"
 cask "clip-studio-paint"
 cask "cheatsheet"
+cask "blender"
+cask "licecap"
 
 mas "co.nimbusweb.nimbuscapture", id: 1125725441
 mas "com.apple.iWork.Keynote", id: 409183694
