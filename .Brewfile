@@ -30,9 +30,11 @@ cask "postman"
 cask "adobe-creative-cloud"
 cask "clip-studio-paint"
 cask "cheatsheet"
+cask "blender"
 
 mas "co.nimbusweb.nimbuscapture", id: 1125725441
 mas "com.apple.iWork.Keynote", id: 409183694
 mas "com.pearlmountainsoft.PicGIFLite", id: 844918735
 mas "Slack", id: 803453959
 mas "LINE", id: 539883307
+mas "GIPHY CAPTURE", id: 668208984
