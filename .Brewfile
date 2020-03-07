@@ -16,6 +16,7 @@ brew "pngquant"
 brew "yarn"
 brew "heroku/brew/heroku"
 brew "postgresql"
+brew "nkf"
 
 cask "google-chrome"
 cask "google-japanese-ime"
